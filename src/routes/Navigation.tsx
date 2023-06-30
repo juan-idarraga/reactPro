@@ -1,15 +1,8 @@
-import {
-  BrowserRouter,
-  NavLink,
-  Navigate,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
 import logo from "../logo.svg";
-import { Lazypage1, Lazypage2, Lazypage3 } from "../lazyload/pages";
 import { routes } from "./routes";
 import { Suspense } from "react";
-
+//suspense show while is loading
 export const Navigation = () => {
   return (
     <Suspense>
